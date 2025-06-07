@@ -76,26 +76,22 @@
     <a href="#contacto">Contacto</a>
   </nav>
   <main>
-    <section id="inicio">
-      <h2>Bienvenidos</h2>
-      <p>Descubre cómo podemos ayudarte a lograr una vida saludable con acompañamiento personalizado, inclusivo y accesible.</p>
+    <section id="audio-inclusivo">
+  <h2>Audio de Bienvenida con Subtítulos</h2>
 
-      <!-- Audios accesibles con subtítulos -->
+  <video controls autoplay playsinline style="width: 100%; max-width: 600px; margin-bottom: 1rem;">
+    <source src="audio/1.m4a" type="audio/mp4" />
+    <track src="audio/bienvenida1.vtt" kind="subtitles" srclang="es" label="Español" default />
+    Tu navegador no soporta el elemento de video.
+  </video>
 
-      <!-- Audio 1 -->
-      <audio autoplay controls style="display:none" aria-label="Audio de bienvenida con subtítulos" id="audio-bienvenida">
-        <source src="audio/1.m4a" type="audio/mp4">
-        <track src="audio/bienvenida.vtt" kind="subtitles" srclang="es" label="Español" default>
-        Tu navegador no soporta el elemento de audio.
-      </audio>
+  <video controls autoplay playsinline style="width: 100%; max-width: 600px;">
+    <source src="audio/2.m4a" type="audio/mp4" />
+    <track src="audio/bienvenida2.vtt" kind="subtitles" srclang="es" label="Español" default />
+    Tu navegador no soporta el elemento de video.
+  </video>
+</section>
 
-      <!-- Audio 2 (opcional) -->
-      <audio controls style="display:none" id="audio-secundario" aria-label="Segundo audio de bienvenida con subtítulos">
-        <source src="audio/2.m4a" type="audio/mp4">
-        <track src="audio/bienvenida_2.vtt" kind="subtitles" srclang="es" label="Español" default>
-        Tu navegador no soporta el elemento de audio.
-      </audio>
-    
       <audio autoplay controls style="display:none" aria-label="Audio de bienvenida con subtítulos" id="audio-bienvenida">
         <source src="audio/1.m4a" type="audio/mp4">
         <track src="audio/bienvenida.vtt" kind="subtitles" srclang="es" label="Español" default>
